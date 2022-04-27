@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/azserverdheer/databases/az",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:SqlConn",
+      "secretStore": "AzureAppSettings"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/azticket1",
+      "type": "storage.azure",
+      "connectionId": "ConnectionStrings:StorAccConnString",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
